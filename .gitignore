@@ -1,0 +1,22 @@
+# Tool configs (private)
+.claude/
+.mcp.json
+.ignore
+
+# Test scratchpads
+test/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Other
+graft/
+docs/
+
+# Local app data / Hermes scripts (never commit)
+~/
+~/**
+
+# Temp diff files
+diff_output.txt

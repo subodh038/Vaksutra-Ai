@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# Virtual environment — never commit
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables — keep secrets local
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Uploads / temp audio files (never commit user recordings)
+uploads/
+tmp/
+*.webm
+*.mp3
+*.wav
+*.ogg
+
+# Calibration sessions — user recording data, never commit
+logs/calibration_sessions/
+
+# Rust build artifacts — can be 200MB+, rebuild with: maturin develop --release
+vocalyze_core/target/
+vocalyze_core/*.pyd
+vocalyze_core/*.so
+
+# maturin wheel cache
+*.whl
